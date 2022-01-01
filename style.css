@@ -1,0 +1,63 @@
+.heading{
+    width: 100%;
+    text-align: left;
+}
+
+.heading h1{
+    display: inline;
+}
+
+.heading button{
+    float: right;
+    border: 1px solid white;
+}
+
+.big_image{
+    width: 100%;
+}
+
+#start , #status , #pause , #resume{
+    font-size: 25px;
+    padding: 10px;
+}
+
+.modal-dialog{
+    width: 90%;
+}
+
+.instruction_image{
+    display: inline-block;
+    width: 45%;
+}
+
+h4{
+    background-color: blue;
+    color: yellow;
+    line-height: 2;
+    margin: 0px;
+}
+
+.scroll_top{
+    border-radius: 100px;
+    font-size: 25px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+video{
+    background: url('game_console.png');
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+body{
+    background-image: url("https://walli.shanga.co/image/view/?id=370");
+}
